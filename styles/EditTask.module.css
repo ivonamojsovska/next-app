@@ -1,0 +1,32 @@
+.edit__task_form {
+  margin: 2rem 0;
+}
+
+.form__input input {
+  border: 0;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  font-size: 16px;
+  color: var(--app-color);
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: var(--primary-color);
+  color: var(--app-color);
+}
+
+.edit__button {
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: var(--app-color);
+}
+
+.editTask__container {
+  margin-top: 3rem;
+}

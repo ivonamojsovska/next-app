@@ -3,7 +3,9 @@
   bottom: 3rem;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
   border-top: 1px solid var(--primary-color);
 }
 
