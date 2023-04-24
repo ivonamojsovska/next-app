@@ -4,10 +4,7 @@ This is a simple ToDo app that allows you to create, update, and delete tasks th
 
 ## Features
 
--Add new task
--Edit existing task
--Delete task
--Mark as completed task
+Add new task/Edit existing task/Delete task/Mark as completed task
 
 ## Gettind Started
 
