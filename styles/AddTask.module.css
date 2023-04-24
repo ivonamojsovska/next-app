@@ -1,0 +1,28 @@
+.add__task_form {
+  margin: 2rem auto;
+}
+
+.form__input input {
+  border: 0;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  font-size: 16px;
+  color: var(--app-color);
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: var(--primary-color);
+  color: var(--app-color);
+}
+
+.add__task_button {
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: var(--app-color);
+}

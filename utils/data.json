@@ -1,0 +1,17 @@
+[
+  {
+    "taskName": "Study",
+    "time": "5pm",
+    "place": "Home"
+  },
+  {
+    "taskName": "Grocery",
+    "time": "11am",
+    "place": "Pavilion"
+  },
+  {
+    "taskName": "Wash the car",
+    "time": "11am",
+    "place": "Ocean Car Wash"
+  }
+]

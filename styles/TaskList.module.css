@@ -1,0 +1,65 @@
+.tasklist__container {
+  margin: 1rem auto;
+}
+
+.tasklist__container h3 {
+  padding-bottom: 1rem;
+}
+
+.task__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 1rem auto;
+  color: var(--app-color);
+  padding: 0.3rem 0.5rem;
+  min-height: 13rem;
+}
+
+.task__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--app-color);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.task__text {
+  display: flex;
+  gap: 2rem;
+}
+
+.task__icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.icon__btn {
+  font-size: 1rem;
+  display: flex;
+  border: none;
+
+  color: var(--app-color);
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.add__task {
+  text-align: center;
+}
+
+.add__task_button {
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: var(--app-color);
+}
