@@ -1,10 +1,25 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 import { BsTrash } from 'react-icons/bs'
 import { CiEdit } from 'react-icons/ci'
 import styles from '@/styles/TaskList.module.css'
 
 const TaskList = ({ todos }) => {
+    const router = useRouter()
+
+    const handleDelete = async (id) => {
+        await fetch("/api/todos/" + id, {
+            method: "delete",
+        });
+        router.push('/')
+    }
+
+    const handleChecked = (id) => {
+        const checkedElement = document.getElementById(id)
+        checkedElement.classList.toggle('fade')
+    }
+
     return (<div className={`${styles.tasklist__container} container`}>
         <h3>This is what you have...</h3>
         {todos ? todos.map((todo) => {
