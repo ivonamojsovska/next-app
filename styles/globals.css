@@ -33,11 +33,12 @@ a {
 
 .app {
   max-width: 60%;
-  height: 30rem;
+  max-height: 50rem;
   margin: 5rem auto;
   border: none;
   border-radius: 2rem;
   background: var(--app-color);
+  position: relative;
 }
 
 form {

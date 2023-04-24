@@ -8,8 +8,10 @@ const caveat = Caveat({
 
 const Header = () => {
     return (<div className={`${styles.header__container} container`}>
-        <h1 className={caveat.className}>Done Undone</h1>
-        <h4>Getting organized is a sign of self-respect</h4>
+        <div className={styles.header__text}>
+            <h1 className={caveat.className}>Done Undone</h1>
+            <h4>Getting organized is a sign of self-respect</h4>
+        </div>
     </div>);
 }
 

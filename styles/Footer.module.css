@@ -1,0 +1,12 @@
+.footer__container {
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid var(--primary-color);
+}
+
+.footer__container > * {
+  padding-top: 0.5rem;
+}
