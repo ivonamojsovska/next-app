@@ -1,6 +1,4 @@
 
-import styles from '@/styles/Home.module.css'
-
 import TaskList from '@/components/TaskList'
 
 
